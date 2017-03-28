@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "rpg:miningnodes/titaniumminingnode"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

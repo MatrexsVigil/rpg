@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rpg",
+  "name": "Pam's RPG Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pamela Collins"],
+  "credits": "Pamela Collins",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

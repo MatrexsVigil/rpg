@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "rpg:blocks/miningnodes/tinminingnode"
+    }
+}

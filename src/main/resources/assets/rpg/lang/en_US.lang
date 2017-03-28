@@ -1,0 +1,12 @@
+itemGroup.rpg=RPG
+
+tile.copperminingnode.name=Copper Vein
+tile.tinminingnode.name=Tin Vein
+tile.nickelminingnode.name=Nickel Vein
+tile.ironminingnode.name=Iron Vein
+tile.silverminingnode.name=Silver Vein
+tile.goldminingnode.name=Gold Vein
+tile.titaniumminingnode.name=Titanium Vein
+tile.platinumminingnode.name=Platinum Vein
+
+
