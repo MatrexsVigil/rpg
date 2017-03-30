@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cross",
     "textures": {
-        "cross": "rpg:blocks/trees/chestnuttree"
+        "cross": "rpg:blocks/trees/double_plant_chestnut_top"
     }
 }

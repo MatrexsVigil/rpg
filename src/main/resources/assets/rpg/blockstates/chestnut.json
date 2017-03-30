@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "rpg:blocks/trees/double_chestnut_bottom" },
+        "half=upper":    { "model": "rpg:blocks/trees/double_chestnut_top" }
+    }
+}

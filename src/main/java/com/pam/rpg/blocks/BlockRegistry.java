@@ -39,7 +39,7 @@ public final class BlockRegistry {
 	
 	// Trees
 	public static final HashMap<String, BlockBaseTree> trees = new HashMap<String, BlockBaseTree>();
-	public static final String chestnutTree = "chestnutTree";
+	public static final String chestnut = "chestnut";
 
 	public static final int chestnutMiningLevel = 1;
 
@@ -92,7 +92,7 @@ public final class BlockRegistry {
 	}
 
 	private static void registerWood() {
-		addTree(chestnutTree, chestnutMiningLevel);
+		addTree(chestnut, chestnutMiningLevel);
 
 	}
 
