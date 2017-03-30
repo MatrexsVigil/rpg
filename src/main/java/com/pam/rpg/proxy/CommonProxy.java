@@ -3,6 +3,7 @@ package com.pam.rpg.proxy;
 import com.pam.rpg.blocks.BlockRegistry;
 import com.pam.rpg.events.MiningEventHandler;
 import com.pam.rpg.item.ItemRegistry;
+import com.pam.rpg.worldgen.StructureWorldGen;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -19,7 +20,7 @@ public class CommonProxy {
     }
 
     public void init(FMLInitializationEvent e) {
-    	//GameRegistry.registerWorldGenerator(new BushWorldGen(), 0);
+    	GameRegistry.registerWorldGenerator(new StructureWorldGen(), 0);
     }
 
     public void postInit(FMLPostInitializationEvent e) {

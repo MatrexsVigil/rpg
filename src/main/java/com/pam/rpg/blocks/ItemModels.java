@@ -4,6 +4,9 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.pam.rpg.blocks.harvestables.BlockBaseMiningNode;
+import com.pam.rpg.blocks.harvestables.BlockBaseTree;
+
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelBakery;
@@ -28,6 +31,10 @@ public class ItemModels {
         for (BlockBaseMiningNode miningnode : BlockRegistry.miningnodes.values()) {
             registerItemModels(getItem(miningnode), new ItemModelList("miningnodes/")
                     .add(0, miningnode.getName()));
+        }
+        for (BlockBaseTree tree : BlockRegistry.trees.values()) {
+            registerItemModels(getItem(tree), new ItemModelList("trees/")
+                    .add(0, tree.getName()));
         }
     }
 

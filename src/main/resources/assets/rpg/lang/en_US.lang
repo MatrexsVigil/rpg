@@ -1,12 +1,14 @@
 itemGroup.rpg=RPG
 
-tile.copperminingnode.name=Copper Vein
-tile.tinminingnode.name=Tin Vein
-tile.nickelminingnode.name=Nickel Vein
-tile.ironminingnode.name=Iron Vein
-tile.silverminingnode.name=Silver Vein
-tile.goldminingnode.name=Gold Vein
-tile.titaniumminingnode.name=Titanium Vein
-tile.platinumminingnode.name=Platinum Vein
+tile.copperMiningNode.name=Copper Vein
+tile.tinMiningNode.name=Tin Vein
+tile.nickelMiningNode.name=Nickel Vein
+tile.ironMiningNode.name=Iron Vein
+tile.silverMiningNode.name=Silver Vein
+tile.goldMiningNode.name=Gold Vein
+tile.titaniumMiningNode.name=Titanium Vein
+tile.platinumMiningNode.name=Platinum Vein
+
+tile.chestnuttree.name=Young Chestnut Tree
 
 
